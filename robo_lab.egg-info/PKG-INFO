@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: robo_lab
+Version: 0.1.0
+Summary: Modular robotics lab: PyBullet-based env + planners + controllers
+Requires-Python: >=3.10
+Requires-Dist: pybullet>=3.2.6
+Requires-Dist: numpy>=1.25
+Requires-Dist: scipy>=1.10
+Requires-Dist: matplotlib>=3.8
