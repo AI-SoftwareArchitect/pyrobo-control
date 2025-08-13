@@ -1,6 +1,8 @@
 # robo_lab
 Windows'ta tamamen Python ile çalışan, PyBullet tabanlı modüler robotik proje.
 
+![Py robo](pyrobo.png)
+
 ## Özellikler
 - 2D mobil robot (differential drive) + LiDAR benzeri 2D tarayıcı (ray casting)
 - A* grid planner (Strategy) + saf PID heading/speed kontrolü (Strategy)
@@ -26,4 +28,5 @@ python -m robo_lab.app.main
 - `robo_lab/planning` : grid map + A*
 - "robo_lab/control" : PID ve saf takip kontrolcüsü
 - `robo_lab/robot` : differential drive model/kinematik
+
 - `robo_lab/app` : konfig, senaryo, entegrasyon
